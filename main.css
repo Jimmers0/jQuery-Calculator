@@ -1,0 +1,115 @@
+.calculator {
+    margin: auto;
+    max-width: 500px;
+    height: 530px;
+    align-content: center;
+    background-color: black;
+    border: 3px solid rgb(109, 173, 119);
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-around;
+}
+
+#num_1 , #num_2 {
+    width: 200px;
+    height: 100px;
+    border: 2px solid rgb(109, 173, 119);
+    font-family: 'VT323',serif;
+    background-color: black;
+    color: rgb(109, 173, 119);
+    font-size: 35px;
+    text-align: center;
+}
+
+#num_1:focus {
+    outline: none;
+    opacity: .5;
+}
+
+#num_2:focus {
+    outline: none;
+    opacity: .5;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(109, 173, 119);
+    font-family: 'VT323',serif;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(109, 173, 119);
+    font-family: 'VT323',serif;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    padding:20px;
+    justify-content: space-between;
+}
+
+.operator {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 50px;
+    border: 2px solid rgb(109, 173, 119);
+    background-color: black;
+    
+}
+
+.operator:focus {
+    outline: none;
+}
+
+.fa-plus {
+    font-size: 25px;
+    color: rgb(109, 173, 119);
+}
+
+.fa-minus {
+    font-size: 25px;
+    color: rgb(109, 173, 119);
+}
+
+.fa-divide {
+    font-size: 25px;
+    color: rgb(109, 173, 119);
+}
+
+.fa-times {
+    font-size: 25px;
+    color: rgb(109, 173, 119);
+}
+
+#answer {
+    padding: 20px;
+    margin-left: 25px;
+    text-align: center;
+    height:100px;
+    width: 405px;
+    background-color: black;
+    border: 2px solid rgb(109, 173, 119);
+    color: rgb(109, 173, 119);
+    font-size: 35px;
+    font-family: 'VT323',serif;
+   
+    
+}
+
+body {
+    background-color: black;
+}
+.jr {
+    color: rgb(109, 173, 119);
+    font-size: 15px;
+    position: relative;
+    font-family: 'VT323',serif;
+    top: -530px;
+    left: 945px;
+}
